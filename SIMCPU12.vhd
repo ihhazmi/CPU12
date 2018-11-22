@@ -1,0 +1,52 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+entity SCPU12 is
+   port ( CLK,RESET: IN std_logic;
+          INSTSEL : IN std_logic_vector(3 DOWNTO 0);
+          DONE : OUT std_logic);
+END SCPU12;
+
+architecture STRUCTURE of SCPU12 is
+-- SIGNAL DECLARATION
+	 SIGNAL IM,DI,EX,O95,O16,RL,PRE_POST, BUSMUXO,ADDRESSO,MEMDATA : STD_LOGIC_VECTOR(15 DOWNTO 0);
+   SIGNAL CCOUT, CU_CCR : std_logic_vector(7 DOWNTO 0);
+   SIGNAL CLRA,CLRB,LdA,LdB,LdX,LdY,LdSP,LdCC,LdPC,Plus2,S_U,S3,S2,S1,S0,SWAP,MI,ALSH : std_logic; 
+   SIGNAL MDH1, MDL1, MDH2, MDL2, MAA, MAD2, GE, LE, LT, GT  : std_logic; 
+   SIGNAL MR1,MR2, MACC,MX,MY,MSP,MCC,MPC, MAB,MBUS, MAD1,MAD, DWB,En: std_logic_vector(1 DOWNTO 0); 
+-- COMPONENT DECLARATION
+	COMPONENT DataPath is
+   port (IM, DI, EX, O95, O16, RL, PRE_POST : IN std_logic_vector(15 DOWNTO 0); 
+         CU_CCR : IN std_logic_vector(7 DOWNTO 0); -- CCR EX INPUTS
+         CLK, CLRA, CLRB  : IN std_logic; 
+         LdA, LdB, LdX, LdY, LdSP, LdCC, LdPC, Plus2 : IN std_logic; 
+         MDH1, MDL1, MDH2, MDL2, MAA, MAD2 : IN std_logic; 
+         MR1, MR2, MACC, MX, MY, MSP, MCC, MPC, MAB, MBUS, MAD1, MAD, DWB, En : IN std_logic_vector(1 DOWNTO 0); 
+         S_U, S3, S2, S1, S0: IN std_logic;  
+         SWAP, MI, ALSH : IN std_logic; 
+         CCOUT : INOUT std_logic_vector(7 DOWNTO 0);
+         BUSMUXO, MEMDATA, ADDRESSO : INOUT std_logic_vector(15 DOWNTO 0); 
+         GE, LE, LT, GT: OUT std_logic); 
+   END COMPONENT;
+------------------------
+	COMPONENT INSTRUCTIONSTATES IS
+	PORT (CLK,RESET: IN std_logic;
+			DATAMEM : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+			INSTSEL: IN std_logic_vector(3 downto 0);
+      CU_CCR : OUT std_logic_vector (7 DownTo 0);
+			IM, DI, EX, O95, O16, RL, PRE_POST : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+			MR1,MR2,MACC,MSP,MX,MY,MCC,MPC,MAB,MAD1,MAD,MBUS,DWB,En: OUT std_logic_VECTOR(1 DOWNTO 0);
+		  CLRA,CLRB,LdA,LdB,LdCC,LdPC,LdSP,LdX,LdY,MAA,MDH1,MDH2,MDL1,MDL2,MAD2,
+			Plus2,S0,S1,S2,S3,S_U,SWAP,MI,ALSH, DONE : OUT std_logic);
+   END COMPONENT;
+-----------------------
+	BEGIN
+	    CUNIT: INSTRUCTIONSTATES PORT MAP(CLK,RESET,MEMDATA,INSTSEL,CU_CCR,IM,DI,EX,O95,O16,RL,PRE_POST,
+	    MR1,MR2,MACC,MSP,MX,MY,MCC,MPC,MAB,MAD1,MAD,MBUS,DWB,En,CLRA,CLRB,LdA,LdB,LdCC,LdPC,LdSP,LdX,
+	    LdY,MAA,MDH1,MDH2,MDL1,MDL2,MAD2,Plus2,S0,S1,S2,S3,S_U,SWAP,MI,ALSH,DONE);
+
+	    DPUNIT: DataPath PORT MAP(IM,DI,EX,O95,O16,RL,PRE_POST,CU_CCR,
+	    CLK,CLRA,CLRB,LdA,LdB,LdX,LdY,LdSP,LdCC,LdPC,Plus2,MDH1,MDL1,MDH2,MDL2,MAA,MAD2,
+	    MR1,MR2,MACC,MX,MY,MSP,MCC,MPC,MAB,MBUS,MAD1,MAD,DWB,En,
+	    S_U,S3,S2,S1,S0,SWAP,MI,ALSH,CCOUT,BUSMUXO,MEMDATA,ADDRESSO,GE,LE,LT,GT);
+END STRUCTURE;

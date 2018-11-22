@@ -1,0 +1,152 @@
+# Current time Mon Jul 13 19:15:44 2009
+# ModelSim PE Student Edition Stack Trace
+# Program = vsim
+# Id = "6.5"
+# Version = "2009.01"
+# Date = "Jan 23 2009"
+# Platform = win32pe
+# 0    0x007cbd1a: '<unknown (@0x7cbd1a)>'
+# 1    0x007d2c86: '<unknown (@0x7d2c86)>'
+# 2    0x00435800: '<unknown (@0x435800)>'
+# 3    0x004357af: '<unknown (@0x4357af)>'
+# 4    0x007d1e5a: '<unknown (@0x7d1e5a)>'
+# 5    0x007cb235: '<unknown (@0x7cb235)>'
+# 6    0x007cc1a5: '<unknown (@0x7cc1a5)>'
+# 7    0x007cd508: '<unknown (@0x7cd508)>'
+# 8    0x007b454c: '<unknown (@0x7b454c)>'
+# 9    0x007b4c24: '<unknown (@0x7b4c24)>'
+# 10   0x007b56c4: '<unknown (@0x7b56c4)>'
+# 11   0x006787d2: '<unknown (@0x6787d2)>'
+# 12   0x00678675: '<unknown (@0x678675)>'
+# 13   0x006787fb: '<unknown (@0x6787fb)>'
+# 14   0x00409e86: '<unknown (@0x409e86)>'
+# End of Stack Trace
+
+
+# Current time Mon Jul 13 19:20:30 2009
+# ModelSim PE Student Edition Stack Trace
+# Program = vsim
+# Id = "6.5"
+# Version = "2009.01"
+# Date = "Jan 23 2009"
+# Platform = win32pe
+# 0    0x007cbd1a: '<unknown (@0x7cbd1a)>'
+# 1    0x007d2c86: '<unknown (@0x7d2c86)>'
+# 2    0x00435800: '<unknown (@0x435800)>'
+# 3    0x004357af: '<unknown (@0x4357af)>'
+# 4    0x007d1e5a: '<unknown (@0x7d1e5a)>'
+# 5    0x007cb235: '<unknown (@0x7cb235)>'
+# 6    0x007cc1a5: '<unknown (@0x7cc1a5)>'
+# 7    0x007cd508: '<unknown (@0x7cd508)>'
+# 8    0x007b454c: '<unknown (@0x7b454c)>'
+# 9    0x007b4c24: '<unknown (@0x7b4c24)>'
+# 10   0x007b56c4: '<unknown (@0x7b56c4)>'
+# 11   0x006787d2: '<unknown (@0x6787d2)>'
+# 12   0x00678675: '<unknown (@0x678675)>'
+# 13   0x006787fb: '<unknown (@0x6787fb)>'
+# 14   0x00409e86: '<unknown (@0x409e86)>'
+# End of Stack Trace
+
+
+# Current time Mon Jul 13 20:59:08 2009
+# ModelSim PE Student Edition Stack Trace
+# Program = vsim
+# Id = "6.5"
+# Version = "2009.01"
+# Date = "Jan 23 2009"
+# Platform = win32pe
+# 0    0x007cbd1a: '<unknown (@0x7cbd1a)>'
+# 1    0x007d2c86: '<unknown (@0x7d2c86)>'
+# 2    0x00435800: '<unknown (@0x435800)>'
+# 3    0x004357af: '<unknown (@0x4357af)>'
+# 4    0x007d1e5a: '<unknown (@0x7d1e5a)>'
+# 5    0x007cb235: '<unknown (@0x7cb235)>'
+# 6    0x007cc1a5: '<unknown (@0x7cc1a5)>'
+# 7    0x007cd508: '<unknown (@0x7cd508)>'
+# 8    0x007b454c: '<unknown (@0x7b454c)>'
+# 9    0x007b4c24: '<unknown (@0x7b4c24)>'
+# 10   0x007b56c4: '<unknown (@0x7b56c4)>'
+# 11   0x006787d2: '<unknown (@0x6787d2)>'
+# 12   0x00678675: '<unknown (@0x678675)>'
+# 13   0x006787fb: '<unknown (@0x6787fb)>'
+# 14   0x00409e86: '<unknown (@0x409e86)>'
+# End of Stack Trace
+
+
+# Current time Tue Jul 14 00:31:28 2009
+# ModelSim PE Student Edition Stack Trace
+# Program = vsim
+# Id = "6.5"
+# Version = "2009.01"
+# Date = "Jan 23 2009"
+# Platform = win32pe
+# 0    0x007cbd1a: '<unknown (@0x7cbd1a)>'
+# 1    0x007d2c86: '<unknown (@0x7d2c86)>'
+# 2    0x00435800: '<unknown (@0x435800)>'
+# 3    0x004357af: '<unknown (@0x4357af)>'
+# 4    0x007d1e5a: '<unknown (@0x7d1e5a)>'
+# 5    0x007cb235: '<unknown (@0x7cb235)>'
+# 6    0x007cc1a5: '<unknown (@0x7cc1a5)>'
+# 7    0x007cd508: '<unknown (@0x7cd508)>'
+# 8    0x007b454c: '<unknown (@0x7b454c)>'
+# 9    0x007b4c24: '<unknown (@0x7b4c24)>'
+# 10   0x007b56c4: '<unknown (@0x7b56c4)>'
+# 11   0x006787d2: '<unknown (@0x6787d2)>'
+# 12   0x00678675: '<unknown (@0x678675)>'
+# 13   0x006787fb: '<unknown (@0x6787fb)>'
+# 14   0x00409e86: '<unknown (@0x409e86)>'
+# End of Stack Trace
+
+
+# Current time Fri Jul 17 01:49:46 2009
+# ModelSim PE Student Edition Stack Trace
+# Program = vsim
+# Id = "6.5"
+# Version = "2009.01"
+# Date = "Jan 23 2009"
+# Platform = win32pe
+# 0    0x007cbd1a: '<unknown (@0x7cbd1a)>'
+# 1    0x007d2c86: '<unknown (@0x7d2c86)>'
+# 2    0x00435800: '<unknown (@0x435800)>'
+# 3    0x004357af: '<unknown (@0x4357af)>'
+# 4    0x007d1e5a: '<unknown (@0x7d1e5a)>'
+# 5    0x007cb235: '<unknown (@0x7cb235)>'
+# 6    0x007cc1a5: '<unknown (@0x7cc1a5)>'
+# 7    0x007cd508: '<unknown (@0x7cd508)>'
+# 8    0x007b401d: '<unknown (@0x7b401d)>'
+# 9    0x007b4088: '<unknown (@0x7b4088)>'
+# 10   0x007b465c: '<unknown (@0x7b465c)>'
+# 11   0x007b56c4: '<unknown (@0x7b56c4)>'
+# 12   0x006787d2: '<unknown (@0x6787d2)>'
+# 13   0x00678675: '<unknown (@0x678675)>'
+# 14   0x006787fb: '<unknown (@0x6787fb)>'
+# 15   0x00409e86: '<unknown (@0x409e86)>'
+# End of Stack Trace
+
+
+# Current time Fri Jul 17 08:04:00 2009
+# ModelSim PE Student Edition Stack Trace
+# Program = vsim
+# Id = "6.5"
+# Version = "2009.01"
+# Date = "Jan 23 2009"
+# Platform = win32pe
+# 0    0x007cbd1a: '<unknown (@0x7cbd1a)>'
+# 1    0x007d2c86: '<unknown (@0x7d2c86)>'
+# 2    0x00435800: '<unknown (@0x435800)>'
+# 3    0x004357af: '<unknown (@0x4357af)>'
+# 4    0x007d1e5a: '<unknown (@0x7d1e5a)>'
+# 5    0x007cb235: '<unknown (@0x7cb235)>'
+# 6    0x007cc1a5: '<unknown (@0x7cc1a5)>'
+# 7    0x007cd508: '<unknown (@0x7cd508)>'
+# 8    0x007b401d: '<unknown (@0x7b401d)>'
+# 9    0x007b4088: '<unknown (@0x7b4088)>'
+# 10   0x007b465c: '<unknown (@0x7b465c)>'
+# 11   0x007b56c4: '<unknown (@0x7b56c4)>'
+# 12   0x006787d2: '<unknown (@0x6787d2)>'
+# 13   0x00678675: '<unknown (@0x678675)>'
+# 14   0x006787fb: '<unknown (@0x6787fb)>'
+# 15   0x00409e86: '<unknown (@0x409e86)>'
+# End of Stack Trace
+
+
